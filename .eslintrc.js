@@ -4,7 +4,6 @@ module.exports = {
   ignorePatterns: [".eslintrc.js", "/src/serviceWorker.ts"],
   parser: '@typescript-eslint/parser',
   rules: {
-    "@typescript-eslint/no-unused-vars" : "off",
     "react/react-in-jsx-scope": "off"
   },
   plugins: [
