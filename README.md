@@ -6,7 +6,7 @@ In the project directory, you can run:
 
 ### `yarn start`
 
-Check lint and Runs the app in the development mode.<br />
+Checks lint and Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
@@ -40,12 +40,12 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### `yarn lint`
 
-check your app by stylelint and tslint config
+checks your app by stylelint and tslint config
 Their config are in your root of project and you can customize them.
 
 ### `yarn lint-fix`
 
-Check and fix your lint problem 
+Checks and fix your lint problem 
 some error doesn't fix with this command
 
 ## Learn More
