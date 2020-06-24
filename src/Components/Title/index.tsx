@@ -1,6 +1,6 @@
-import React from "react";
+import React,  {FC} from "react";
 let x;
-const Title = () => {
+const Title: FC = () => {
   return <h1 className="title">This is a typescript react app</h1>;
 };
 

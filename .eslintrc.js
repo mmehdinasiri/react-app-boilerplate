@@ -1,7 +1,7 @@
 // https://github.com/typescript-eslint/typescript-eslint#getting-started--installation
 module.exports = {
   root: true,
-  ignorePatterns: [".eslintrc.js"],
+  ignorePatterns: [".eslintrc.js", "/src/serviceWorker.ts"],
   parser: '@typescript-eslint/parser',
   rules: {
     "@typescript-eslint/no-unused-vars" : "off",
@@ -15,4 +15,10 @@ module.exports = {
     "plugin:react/recommended",
     'plugin:@typescript-eslint/recommended',
   ],
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    }
+  }
 };
