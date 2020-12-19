@@ -1,0 +1,3 @@
+interface ITitle {
+  title?: string
+}
